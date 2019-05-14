@@ -9,7 +9,8 @@
       "outDir": "dist",
       "assets": [
         "assets",
-        "favicon.ico"
+        "favicon.ico",
+        { "glob": "**/*", "input": "../node_modules/@cavsys/zang/src/assets/images", "output": "./assets/images" }
       ],
       "index": "index.html",
       "main": "main.ts",
@@ -19,13 +20,21 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "../node_modules/font-awesome/css/font-awesome.min.css",
+        "../node_modules/primeng/resources/themes/omega/theme.css",
+        "../node_modules/primeng/resources/themes/kasper/theme.css",
+        "../node_modules/primeng/resources/primeng.min.css",
+        "../node_modules/@cavsys/zang/src/styles.css",
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/@cavsys/zang/src/assets/date.format.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
-        "prod": "environments/environment.prod.ts"
+        "prod": "environments/environment.prod.ts",
+        "invoices": "environments/environment.invoices.ts"
       }
     }
   ],

@@ -15,7 +15,7 @@ export const environment = {
 
   sessionInfoUrl: 'mcall?_NS=CAV&_ROUTINE=PORTAL&_LABEL=SESSIONINFO',
 
-  uci: '',
-  app: ''
+  uci: 'ACCD',
+  app: 'SPCNFW'
 
 };

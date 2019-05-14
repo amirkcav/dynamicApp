@@ -1,0 +1,74 @@
+form .form-group {
+  float: left;
+  margin-right: 15px;
+}
+
+@media(min-width: 1024px) {
+  #app-wrapper {
+    margin: 50px;
+  }
+}
+
+
+::ng-deep .ui-tabview.ui-tabview-top>.ui-tabview-nav {
+  padding: 0;
+}
+
+::ng-deep .ui-widget-header {
+  border: none;
+}
+
+::ng-deep .ui-tabview-panel.ui-widget-content {
+  background: white;
+}
+
+::ng-deep .ui-state-default a {
+  color: #333;
+}
+
+::ng-deep .ui-state-active a {
+  font-weight: bold;
+}
+
+::ng-deep .ui-tabview .ui-tabview-nav > li.ui-state-default {
+  transition: 0.3s;
+}
+
+::ng-deep .ui-table .ui-table-thead > tr > th {
+  border: 1px solid #569;
+}
+
+::ng-deep .ui-tabview .ui-tabview-nav > li.ui-state-active {
+  transform: scale(1.05);
+  margin: 0 4px;
+}
+
+::ng-deep .ui-table .ui-paginator-bottom {
+  border-top: 0 none;
+  border: 1px solid #679;
+}
+
+::ng-deep .table-download-button {
+  text-shadow: white 0 0 5px;
+}
+
+::ng-deep .table-download-button:hover {
+  text-shadow: lightgreen 0 0 5px;
+}
+
+::ng-deep .column-filter-panel .ui-state-default {
+  background: white;
+  color: #414550;
+}
+
+::ng-deep .column-filter-panel .ui-multiselect-panel .ui-widget-header {
+  background: rgba(117, 138, 160, 0.5);
+}
+
+::ng-deep .column-filter-panel .ui-multiselect:hover .ui-multiselect-close {
+  color: white;
+}
+
+::ng-deep .ui-datepicker-calendar .ui-state-default {
+  background: white;
+}
